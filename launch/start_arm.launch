@@ -1,0 +1,13 @@
+<!--
+  start the interface of arm
+ -->
+<launch> 	
+
+  <!--UARM robo ARM-->
+  <include file="$(find swiftpro)/launch/pro_control_nomoveit.launch"/>
+
+   <!--在rviz显示-->
+  <!-- <arg name="rvizconfig" default="$(find spark_carry_object)/rviz/carry_object.rviz" /> -->
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true"/> -->
+
+</launch>
